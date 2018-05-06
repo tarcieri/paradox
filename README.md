@@ -9,8 +9,9 @@ language interface to [Bellman], a library for building zkSNARKS implemented
 in Rust. Like Bellman, the Paradox compiler is also implemented in Rust.
 
 The goal of Paradox is to allow use of Bellman without knowledge of the Rust
-language itself. Instead, Paradox uses Bellman to build a constraint system
-which proves a program written in Paradox has been executed correctly.
+language itself. Instead, Paradox is a self-contained programming language
+which uses Bellman to build a constraint system that proves a program written
+in Paradox has been executed correctly.
 
 Ideally Paradox will not be coupled to Bellman specifically, but be able to
 target any [rank-1 constraint system]. However, Paradox also aims to make it
