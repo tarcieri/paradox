@@ -1,0 +1,13 @@
+[package]
+name        = "paradox"
+description = "an experimental language for verifiable computation using zero-knowledge proofs"
+version     = "0.0.0"
+license     = "Apache-2.0"
+authors     = ["Tony Arcieri <bascule@gmail.com>"]
+homepage    = "https://github.com/tendermint/signatory"
+repository  = "https://github.com/tendermint/signatory/tree/master"
+readme      = "README.md"
+
+[dependencies]
+bellman = "0.1"
+lalrpop = "0.15"
